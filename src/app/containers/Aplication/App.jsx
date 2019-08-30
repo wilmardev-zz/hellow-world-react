@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
 import logo from '../../../assets/logo.svg';
-import './Container.css';
+import Button from '../../components/Button/Button';
+import './App.css';
 
-class Container extends Component {
+class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Hellow World
-        </p>
-        </header>
-      </div>
+            Hellow World From React App!
+          </p>
+          <Button></Button>
+        </header>      
+      </div>    
     );
   }
 }
 
-export default Container;
+export default App;
